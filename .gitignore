@@ -38,3 +38,7 @@ build/tmp/bootJar/MANIFEST.MF
 .gradle/buildOutputCleanup/cache.properties
 .gradle/vcs-1/gc.properties
 .gradle/5.0/gc.properties
+.classpath
+.gitattributes
+.project
+bin/
