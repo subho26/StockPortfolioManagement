@@ -31,3 +31,7 @@ hs_err_pid*
 .gradle/5.0/taskHistory/taskHistory.lock
 .gradle/buildOutputCleanup/buildOutputCleanup.lock
 build/tmp/bootJar/MANIFEST.MF
+*.MF
+*.prefs
+*.bin
+*.lock
