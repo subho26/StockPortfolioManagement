@@ -7,4 +7,6 @@ import lombok.NonNull;
 public interface StockService
 {
    public Stock addStock(@NonNull final Stock stock);
+
+   public Stock findStockByName(String name);
 }

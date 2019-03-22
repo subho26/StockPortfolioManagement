@@ -20,4 +20,10 @@ public class StockServiceImpl implements StockService
    {
       return stockRepository.save(stock);
    }
+
+   @Override
+   public Stock findStockByName(String name)
+   {
+      return stockRepository.findStockByName(name);
+   }
 }

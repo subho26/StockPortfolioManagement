@@ -24,7 +24,7 @@ public class MutualFund
    @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "mutual_fund_id_seq")
    @Column(name = "id", nullable = false)
    private long   id;
-   @Column(name = "name", nullable = false)
+   @Column(name = "name", nullable = false, unique = true)
    private String name;
    @Column(name = "units", nullable = false)
    private int    units;
