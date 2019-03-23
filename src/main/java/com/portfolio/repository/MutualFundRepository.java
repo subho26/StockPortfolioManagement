@@ -6,7 +6,5 @@ import org.springframework.stereotype.Repository;
 import com.portfolio.entities.MutualFund;
 
 @Repository
-public interface MutualFundRepository extends CrudRepository<MutualFund, String>
-{
-
+public interface MutualFundRepository extends CrudRepository<MutualFund, String> {
 }

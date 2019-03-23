@@ -15,17 +15,16 @@ import lombok.*;
 @Getter
 @Setter
 @Table(name = "mutual_fund_table")
-public class MutualFund
-{
-   @Id
-   @SequenceGenerator(name = "mutual_fund_id_seq", sequenceName = "mutual_fund_id_seq", allocationSize = 1)
-   @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "mutual_fund_id_seq")
-   @Column(name = "id", nullable = false)
-   private long   id;
-   @Column(name = "name", nullable = false, unique = true)
-   private String name;
-   @Column(name = "units", nullable = false)
-   private int    units;
-   @Column(name = "unit_price", nullable = false)
-   private double unitPrice;
+public class MutualFund {
+    @Id
+    @SequenceGenerator(name = "mutual_fund_id_seq", sequenceName = "mutual_fund_id_seq", allocationSize = 1)
+    @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "mutual_fund_id_seq")
+    @Column(name = "id", nullable = false)
+    private long id;
+    @Column(name = "name", nullable = false, unique = true)
+    private String name;
+    @Column(name = "units", nullable = false)
+    private int units;
+    @Column(name = "unit_price", nullable = false)
+    private double unitPrice;
 }
