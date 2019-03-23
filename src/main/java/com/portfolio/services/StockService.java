@@ -1,11 +1,12 @@
 package com.portfolio.services;
 
 import com.portfolio.entities.Stock;
-
 import lombok.NonNull;
 
 public interface StockService {
-    Stock addStock(@NonNull final Stock stock);
+    Stock addOrUpdateStock(@NonNull final Stock stock);
 
-    Stock findStockByName(String name);
+    Stock findStockByName(@NonNull final String name);
+
+    void deleteStock(@NonNull final Stock stock);
 }
