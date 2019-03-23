@@ -5,7 +5,7 @@ import com.portfolio.entities.Stock;
 import lombok.NonNull;
 
 public interface StockService {
-    public Stock addStock(@NonNull final Stock stock);
+    Stock addStock(@NonNull final Stock stock);
 
-    public Stock findStockByName(String name);
+    Stock findStockByName(String name);
 }
