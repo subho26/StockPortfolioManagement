@@ -24,7 +24,7 @@ public class MutualFundController
    public ResponseEntity<MutualFund> addMutualFund(@RequestBody final MutualFund mutualFund)
    {
       final MutualFund newMutualFund = mutualFundService.addMutualFund(mutualFund);
-      return new ResponseEntity<MutualFund>(newMutualFund, HttpStatus.CREATED);
+      return new ResponseEntity<>(newMutualFund, HttpStatus.CREATED);
    }
    
    //TODO: update fetch, update, delete functionality

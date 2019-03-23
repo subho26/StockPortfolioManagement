@@ -42,3 +42,6 @@ build/tmp/bootJar/MANIFEST.MF
 .gitattributes
 .project
 bin/
+.idea/
+build/
+out/
